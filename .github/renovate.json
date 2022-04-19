@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "github>lodash-community/renovate-config"
+  ],
+  "labels": ["renovate"]
+}
