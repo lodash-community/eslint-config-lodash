@@ -6,14 +6,14 @@
     "lint": "eslint '**/*.js'"
   },
   "devDependencies": {
-    "eslint": "^8.13.0",
+    "eslint": "^7.12.1",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.2.0"
   },
   "peerDependencies": {
-    "eslint": "^8.13.0",
+    "eslint": "^7.12.1",
     "eslint-plugin-lodash": "^7.4.0",
     "eslint-plugin-you-dont-need-lodash-underscore": "^6.12.0"
   },
