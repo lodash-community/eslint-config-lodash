@@ -5,6 +5,9 @@
   "scripts": {
     "lint": "eslint '**/*.js'"
   },
+  "files": [
+    "index.js"
+  ],
   "devDependencies": {
     "eslint": "7.32.0",
     "eslint-config-standard": "16.0.3",
