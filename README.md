@@ -10,11 +10,15 @@ ESLint Shareable Config for Lodash
 
 ### Install packages
 
+Install eslint-config-lodash and its peer dependencies.
+
 ```sh
 npm i -D eslint-config-lodash eslint-plugin-lodash eslint-plugin-you-dont-need-lodash-underscore
 ```
 
 ### Update ESLint config
+
+Add `lodash` to `extends` of your ESLint config
 
 ```js
 module.exports = {
