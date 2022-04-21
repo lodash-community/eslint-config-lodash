@@ -16,6 +16,8 @@ npm i -D eslint-config-lodash eslint-plugin-lodash eslint-plugin-you-dont-need-l
 
 ### Update ESLint config
 
+Add `lodash` to `extends` of your ESLint config
+
 ```js
 module.exports = {
   extends: [
