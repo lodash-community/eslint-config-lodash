@@ -27,5 +27,3 @@ module.exports = {
   ]
 }
 ```
-
-You can disable some rules if necessary.
