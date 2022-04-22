@@ -27,7 +27,7 @@ npm i -D \
 
 ### Update ESLint config
 
-Add `lodash` to `extends` of your ESLint config
+Add `lodash` to `extends` of your ESLint config.
 
 ```js
 module.exports = {
