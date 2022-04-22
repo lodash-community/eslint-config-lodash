@@ -13,7 +13,11 @@ ESLint Shareable Config for Lodash
 Install eslint-config-lodash and its peer dependencies.
 
 ```sh
-npm i -D eslint-config-lodash eslint-plugin-lodash eslint-plugin-you-dont-need-lodash-underscore
+npm i -D \
+  eslint \
+  eslint-plugin-lodash \
+  eslint-plugin-you-dont-need-lodash-underscore \
+  eslint-config-lodash
 ```
 
 ### Update ESLint config
