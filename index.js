@@ -4,6 +4,7 @@ module.exports = {
     'plugin:you-dont-need-lodash-underscore/compatible'
   ],
   rules: {
+    'lodash/prefer-is-nil': 'off',
     'lodash/prefer-lodash-chain': 'off',
     'lodash/prefer-lodash-method': 'off',
     'lodash/prefer-lodash-typecheck': 'off'
