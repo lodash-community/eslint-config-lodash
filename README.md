@@ -1,5 +1,4 @@
 [![npm version](https://badge.fury.io/js/eslint-config-lodash.svg)](https://badge.fury.io/js/eslint-config-lodash)
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![eslint](https://github.com/lodash-community/eslint-config-lodash/actions/workflows/eslint.yml/badge.svg)](https://github.com/lodash-community/eslint-config-lodash/actions/workflows/eslint.yml)
 
 # eslint-config-lodash
