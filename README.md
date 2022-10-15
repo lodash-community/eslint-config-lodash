@@ -5,7 +5,7 @@
 
 ESLint Shareable Config for Lodash
 
-## Concepts
+## Overview
 
 - Based on recommended config of [eslint-plugin-lodash](https://www.npmjs.com/package/eslint-plugin-lodash)
 - Prefer using native API over Lodash
