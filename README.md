@@ -7,14 +7,32 @@ ESLint Shareable Config for Lodash
 
 ## Overview
 
-- Based on recommended config of [eslint-plugin-lodash](https://www.npmjs.com/package/eslint-plugin-lodash)
-- Prefer using native API over Lodash
+`eslint-config-lodash` is using following configurations and plugins.
+
+- [eslint-plugin-lodash](https://www.npmjs.com/package/eslint-plugin-lodash)
+- [eslint-plugin-you-dont-need-lodash-underscore](https://www.npmjs.com/package/eslint-plugin-you-dont-need-lodash-underscore)
+
+## Peer dependencies
+
+- [eslint](https://www.npmjs.com/package/eslint)
+- [eslint-plugin-lodash](https://www.npmjs.com/package/eslint-plugin-lodash)
+- [eslint-plugin-you-dont-need-lodash-underscore](https://www.npmjs.com/package/eslint-plugin-you-dont-need-lodash-underscore)
 
 ## Usage
 
 ### Install packages
 
-Install eslint-config-lodash and its peer dependencies.
+#### npm@>=7
+
+Install `eslint-config-lodash`.
+
+```sh
+npm i -D eslint-config-lodash
+```
+
+#### npm@<7
+
+Install `eslint-config-lodash` and its peer dependencies.
 
 ```sh
 npm i -D \
@@ -24,14 +42,14 @@ npm i -D \
   eslint-config-lodash
 ```
 
-### Update ESLint config
+### Use in ESLint config
 
 Add `lodash` to `extends` of your ESLint config.
 
-```js
-module.exports = {
-  extends: [
-    'lodash'
+```json
+{
+  "extends": [
+    "lodash"
   ]
 }
 ```
