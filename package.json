@@ -28,5 +28,12 @@
     "url": "https://github.com/lodash-community/eslint-config-lodash/issues"
   },
   "homepage": "https://github.com/lodash-community/eslint-config-lodash",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "config",
+    "eslint-config",
+    "eslint",
+    "eslintconfig",
+    "lodash"
+  ]
 }
