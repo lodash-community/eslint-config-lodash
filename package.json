@@ -9,14 +9,14 @@
     "index.js"
   ],
   "devDependencies": {
-    "eslint": "7.32.0",
+    "eslint": "8.31.0",
     "eslint-config-standard": "16.0.3",
     "eslint-plugin-import": "2.26.0",
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-promise": "5.2.0"
   },
   "peerDependencies": {
-    "eslint": "^7.12.1",
+    "eslint": "^7.12.1 || ^8.0.0",
     "eslint-plugin-lodash": "^7.4.0",
     "eslint-plugin-you-dont-need-lodash-underscore": "^6.12.0"
   },
