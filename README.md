@@ -1,5 +1,6 @@
 [![npm version](https://badge.fury.io/js/eslint-config-lodash.svg)](https://badge.fury.io/js/eslint-config-lodash)
 [![lint](https://github.com/lodash-community/eslint-config-lodash/actions/workflows/lint.yml/badge.svg)](https://github.com/lodash-community/eslint-config-lodash/actions/workflows/lint.yml)
+[![ESLint Recommended](https://img.shields.io/badge/eslint-recommended-%234B32C3)](https://github.com/eslint-recommended)
 
 # eslint-config-lodash
 
