@@ -9,7 +9,7 @@
     "index.js"
   ],
   "devDependencies": {
-    "@eslint-recommended/eslint-config": "7.0.0",
+    "@eslint-recommended/eslint-config": "7.0.2",
     "eslint": "8.36.0"
   },
   "peerDependencies": {
