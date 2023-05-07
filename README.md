@@ -13,44 +13,32 @@ ESLint Shareable Config for Lodash
 - [eslint-plugin-lodash](https://www.npmjs.com/package/eslint-plugin-lodash)
 - [eslint-plugin-you-dont-need-lodash-underscore](https://www.npmjs.com/package/eslint-plugin-you-dont-need-lodash-underscore)
 
-## Peer dependencies
+## Installation
 
-- [eslint](https://www.npmjs.com/package/eslint)
-- [eslint-plugin-lodash](https://www.npmjs.com/package/eslint-plugin-lodash)
-- [eslint-plugin-you-dont-need-lodash-underscore](https://www.npmjs.com/package/eslint-plugin-you-dont-need-lodash-underscore)
-
-## Usage
-
-### Install packages
-
-#### npm@>=7
-
-Install `eslint-config-lodash`.
+npm:
 
 ```sh
 npm i -D eslint-config-lodash
 ```
 
-#### npm@<7
-
-Install `eslint-config-lodash` and its peer dependencies.
+Yarn:
 
 ```sh
-npm i -D \
-  eslint \
-  eslint-plugin-lodash \
-  eslint-plugin-you-dont-need-lodash-underscore \
-  eslint-config-lodash
+yarn add -D eslint-config-lodash
 ```
 
-### Use in ESLint config
+## Usage
 
 Add `lodash` to `extends` of your ESLint config.
 
-```json
-{
-  "extends": [
-    "lodash"
-  ]
+```js
+module.exports = {
+  extends: [
+    'lodash'
+    // add other rulesets here if needed
+  ],
+  rules: {
+    // override/add rules settings here if needed
+  }
 }
 ```
