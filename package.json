@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@eslint-recommended/eslint-config": "12.0.0",
-    "eslint": "8.40.0"
+    "eslint": "8.41.0"
   },
   "peerDependencies": {
     "eslint": "^7.12.1 || ^8.0.0",
