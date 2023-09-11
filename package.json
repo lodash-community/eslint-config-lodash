@@ -9,7 +9,7 @@
     "index.js"
   ],
   "engines": {
-    "node": ">=16"
+    "node": ">=18"
   },
   "devDependencies": {
     "@eslint-recommended/eslint-config": "16.0.0",
