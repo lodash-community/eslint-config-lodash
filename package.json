@@ -12,7 +12,7 @@
     "node": ">=18"
   },
   "devDependencies": {
-    "@eslint-recommended/eslint-config": "24.0.0",
+    "@eslint-recommended/eslint-config": "24.0.1",
     "eslint": "8.57.0"
   },
   "peerDependencies": {
