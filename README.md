@@ -4,7 +4,7 @@
 
 # eslint-config-lodash
 
-ESLint Shareable Config for Lodash
+ESLint Shareable Config for [Lodash](https://lodash.com/)
 
 ## Overview
 
@@ -12,6 +12,11 @@ ESLint Shareable Config for Lodash
 
 - [eslint-plugin-lodash](https://www.npmjs.com/package/eslint-plugin-lodash)
 - [eslint-plugin-you-dont-need-lodash-underscore](https://www.npmjs.com/package/eslint-plugin-you-dont-need-lodash-underscore)
+
+## Requirements
+
+- Node.js v18 or later
+- ESLint v7/v8
 
 ## Installation
 
@@ -27,18 +32,42 @@ Yarn:
 yarn add -D eslint-config-lodash
 ```
 
+pnpm:
+
+```sh
+pnpm add -D eslint-config-lodash
+```
+
 ## Usage
 
-Add `lodash` to `extends` of your ESLint config.
+Add `lodash` to the `extends` section of your [ESLint configuration file](https://eslint.org/docs/latest/use/configure/configuration-files-deprecated).
 
-```js
+JavaScript:
+
+```javascript
 module.exports = {
   extends: [
     'lodash'
     // add other rulesets here if needed
-  ],
-  rules: {
-    // override/add rules settings here if needed
-  }
+  ]
+}
+```
+
+YAML:
+
+```yaml
+extends:
+  - lodash
+  # add other rulesets here if needed
+```
+
+JSON:
+
+```jsonc
+{
+  "extends": [
+    "lodash"
+    // add other rulesets here if needed
+  ]
 }
 ```
