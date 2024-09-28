@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@munierujp/eslint-config": "30.1.1",
-    "eslint": "8.57.0"
+    "eslint": "8.57.1"
   },
   "peerDependencies": {
     "eslint": "^7.12.1 || ^8.0.0",
